@@ -76,18 +76,18 @@
                         android:layout_height="22dp"
                         android:layout_marginStart="10dp"
                         android:contentDescription="@string/app_name"
-                        android:src="@drawable/ic_baseline_email_24"
+                        android:src="@drawable/ic_baseline_phone_android"
                         app:tint="@color/colorAccent" />
 
                     <EditText
-                        android:id="@+id/editTextEmailId"
+                        android:id="@+id/editTextSignInPhoneId"
                         android:layout_width="match_parent"
                         android:layout_height="55dp"
                         android:background="@null"
-                        android:hint="@string/you_email_com"
+                        android:hint="@string/_8801400000000"
                         android:imeOptions="actionNext"
                         android:importantForAutofill="no"
-                        android:inputType="textEmailAddress"
+                        android:inputType="phone"
                         android:paddingStart="10dp"
                         android:paddingEnd="10dp"
                         android:textColor="@color/colorTextPrimary"
@@ -136,7 +136,7 @@
                         android:layout_height="22dp"
                         android:layout_marginStart="10dp"
                         android:contentDescription="@string/app_name"
-                        android:src="@drawable/ic_baseline_email_24"
+                        android:src="@drawable/ic_baseline_vpn_key_24"
                         app:tint="@color/colorAccent" />
 
                     <EditText

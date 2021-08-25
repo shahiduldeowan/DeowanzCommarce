@@ -115,7 +115,7 @@
         </RelativeLayout>
 
 
-        <RelativeLayout
+        <!--<RelativeLayout
             android:layout_marginTop="-40dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -173,7 +173,7 @@
 
                 />
 
-        </RelativeLayout>
+        </RelativeLayout>-->
 
         <RelativeLayout
             android:layout_marginTop="-40dp"
@@ -254,7 +254,7 @@
                     android:layout_height="22dp"
                     android:layout_marginStart="10dp"
                     android:contentDescription="@string/app_name"
-                    android:src="@drawable/ic_baseline_email_24"
+                    android:src="@drawable/ic_baseline_vpn_key_24"
                     app:tint="@color/colorAccent"
                     />
 
@@ -315,11 +315,11 @@
                     android:layout_height="22dp"
                     android:layout_marginStart="10dp"
                     android:contentDescription="@string/app_name"
-                    android:src="@drawable/ic_baseline_email_24"
+                    android:src="@drawable/ic_baseline_vpn_key_24"
                     app:tint="@color/colorAccent" />
 
                 <EditText
-                    android:id="@+id/EditTextConfirmSignUpPasswordId"
+                    android:id="@+id/ConfirmSignUpPasswordId"
                     android:layout_width="match_parent"
                     android:layout_height="55dp"
                     android:background="@null"
