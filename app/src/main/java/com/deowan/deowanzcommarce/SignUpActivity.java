@@ -66,7 +66,7 @@ public class SignUpActivity extends AppCompatActivity {
         }else if (TextUtils.isEmpty(password1)){
             Toast.makeText(this, "Enter your password here...", Toast.LENGTH_SHORT).show();
         }else if (TextUtils.isEmpty(password2)){
-            if (password1 != password2){
+            if (!password1.equals(password2)){
                 Toast.makeText(this, "", Toast.LENGTH_SHORT).show();
             }
         }else{
@@ -104,6 +104,7 @@ public class SignUpActivity extends AppCompatActivity {
                                         Toast.makeText(SignUpActivity.this, "Congratulations, your account has been created.", Toast.LENGTH_SHORT).show();
                                         progressDialog.dismiss();
                                         Intent intent = new Intent(SignUpActivity.this, SignInActivity.class);
+                                        startActivity(intent);
                                     }else{
                                         Toast.makeText(SignUpActivity.this, "", Toast.LENGTH_SHORT).show();
                                         progressDialog.dismiss();
