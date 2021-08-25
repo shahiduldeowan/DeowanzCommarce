@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Deowanz commarce</string>
+    <string name="deowanz">DeowanZ</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="sign_in_to_continue">Sign in to continue</string>
+    <string name="you_email_com">you@email.com</string>
+    <string name="email">Email</string>
+    <string name="password">password</string>
+    <string name="star_password">****************</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="admin">I\'m Admin</string>
+    <string name="not_admin">I\'m Not Admin</string>
+    <string name="don_t_have_account">Don\'t have account?</string>
+    <string name="create_a_new_account">Create a new account</string>
+    <string name="or">OR</string>
+    <string name="create_account">Create Account</string>
+    <string name="username">username</string>
+    <string name="shahidul_deowan">Shahidul Deowan</string>
+    <string name="phone">phone</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="_8801400000000">01400000000</string>
+    <string name="already_have_an_account">Already have an account</string>
+</resources>
